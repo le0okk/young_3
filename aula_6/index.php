@@ -9,7 +9,7 @@
 <body>
     <main>
         <h1>
-            Adicionar produotos
+            Adicionar produtos
         </h1>
         <form action="adicionar_produto.php" method="post">
             <div>

@@ -12,7 +12,7 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST')
 
     if ($mysqli->query($sql) == TRUE)
     {
-        header('Location: listar_produtos.php');
+        header('Location: lista_produtos.php');
         exit();
     }
     else
