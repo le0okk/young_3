@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body { overflow-x: hidden; }
+
+*{
+padding: 0px;
+margin: 0px;
+box-sizing: border-box;
+font-family: 'Poppins', sans-serif;
+}
+.barra{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.conteiner-geral{
+width: 100vw;
+flex-direction: column;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.barra{
+background-color: rgb(174, 243, 174);
+width: 100vw;
+height: 48px;
+}
+
+.barra p{
+    font-family: "Playwrite NL", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.barra-inicial{
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+} 
+
+.icons{
+height: 25px;
+}
+
+.barra-inicial{
+display: flex;
+width: 100vw;
+height: 60px;
+align-items: center;
+justify-content:center;
+border-bottom: 3px solid rgb(174, 243, 174);
+background-color: white;
+}
+
+.lista{
+width:80%;
+display: flex;
+justify-content:space-around;
+}
+    
+.lista ul li{
+display: inline-block;
+color: #8b8b8b;
+padding: 10px;
+}
+
+.lista ul li a{
+color: #8b8b8b;
+text-decoration: none;
+font-size: 15px;
+text-transform: uppercase;
+}
+
+.aba-destaques{
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+margin-top: 20px;
+}
+
+.destaques {
+height: 350px;
+width:80vw;
+background-color: rgb(243, 174, 243) ; 
+border-radius: 30px;
+}
+
+.foto-destaques{
+width: 100vw;
+}
+ 
+.aba-recomendados{
+padding-top: 20px;
+width: 100vw;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.promocoes{
+width: 55%;
+}
+
+desra.titulo-destaque{
+color: #8b8b8b;
+}
+
+.uma-recomen{
+display: flex;
+color: #8b8b8b;
+font-size: 20px;
+padding: 10px; 
+}
+.imagem-destaque{
+height: 300px;
+width: 200px ;
+background-color: aquamarine;
+border-radius: 10px;
+
+}
+
+.roupas-destaque2{
+margin-left: 50px;
+}
+.armario-destaque{
+display: flex;
+margin-top: 25px;
+}
+.barra-inferior{
+background:rgb(174, 243, 174);
+width: 100vw;
+}
+.barra2{
+    background-color: rgb(174, 243, 174);
+    width: 100vw;
+    height: 48px;
+    margin-top: 40px;
+}
+.roupas-destaque ul li{
+    list-style-type: none
+    }
+
+.roupas-destaque ul li a{
+    color: #3a3a3a;
+    text-decoration: none;
+    font-size: 20px;
+    }
+.roupas-destaque2 ul li{
+    list-style-type: none
+    }
+        
+ .roupas-destaque2 ul li a{
+    color: #3a3a3a;
+    text-decoration: none;
+    font-size: 20px;
+     }
+
+.adicionar{
+    width: 40px;
+}
+
+.caixa-adicionar{
+    display: flex;
+    margin-top: 30px;
+    justify-content: center;
+    align-items: center;
+}
+
+.conteiner-armario{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    flex-direction: column;
+}
+
+.meu-armario{
+    width: 80vw;
+
+}
+
+.text-armario{
+    font-size: 25px;
+    font-family: "Playwrite NL", cursive;
+    font-optical-sizing: auto;
+    font-weight: <weight>;
+    font-style: normal;
+}
+
+.espaço-adicionar{
+    margin-top: 30px;
+    width: 80vw;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 3px solid rgb(174, 243, 174);
+    border-radius: 5px;
+}
+
+
+"Seu estilo, sua organização."  
